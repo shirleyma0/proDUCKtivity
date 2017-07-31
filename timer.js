@@ -31,6 +31,7 @@ function countdown(){
     displayTime();
     if (count == 0) {
       playing = false;
+      document.getElementById( 'timer-beep' ).play();
     } else if (playing) {
       setTimeout(countdown, 100);
       count--;
