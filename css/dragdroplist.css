@@ -81,7 +81,7 @@ body ul .draggable {
   position: relative;
 }
 body ul .draggable:after {
-  content: 'delete';
+  content: 'reorder';
   right: 7px;
   font-size: 10px;
   position: absolute;
