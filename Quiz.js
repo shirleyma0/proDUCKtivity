@@ -23,7 +23,7 @@ var questions = [
     [" When I have a deadline approaching, I:", " wait until the last minute and do it the night before."," plan out the task and finish it early."," beg for an extension or turn in nothing."," procrastinate the task; I finish it but it is not the best.", "A", "B", "C", "D"],
     [" I am on social media:", " very often; I sometimes let it get in the way of my work.", " when I have free time; I never use it while working.", " 24/7; I cannot get off of it.", " often, but I balance it well with my work.", "A", "B", "C", "D"],
     [" I spend most of my time doing:", " activities that are urgent but not that important.", " activities that are important but not urgent.", " activities that are neither urgent nor important.", " activities that are both urgent and important.", "A", "B", "C", "D"],
-    [" At what time do you schedule the biggest task you have that day?", " During lunch, if I cannot get to it before then.", " In the morning, when I still have the highest energy.", " I do not schedule anything.", " Whenever I know that my colleagues are busy and won't interrupt me.", "A", "B", "C", "D"],
+    [" At what time do you schedule the biggest task you have that day?", " During lunch, if I cannot get to it before then.", " In the morning, when I still have the highest energy.", " I do not schedule anything.", " Whenever I know that my colleagues/classmates are busy and won't interrupt me.", "A", "B", "C", "D"],
     [" When people ask me to do something, I:", " say yes no matter what.", " respectfully decline unless it  benefits one of my priorities.", " cannot say yes. I am far too busy.", " say yes unless it interferes with my schedule.", "A", "B", "C", "D"],
     [" At the end of the day, I feel:", " unhappy from all the things I did not get done.", " relaxed and ready to take on tomorrow.", " unsatisfied.", " tired; it took longer than expected to finish my tasks.", "A", "B", "C", "D"],
     [" How often do you check your email?", " Every hour or multiple times every hour", " No more than 3 times a day", " Never", " I have email open all day and respond to emails as fast as I can", "A", "B", "C", "D"],
@@ -53,7 +53,7 @@ function displayQuestion() {
           var podcast1_result = podcast1.link("https://productivityist.simplecast.fm/");
           var podcast2 = "How to Make Sure Your Projects and Tasks are the Right Ones";
           var podcast2_result = podcast2.link("http://www.asianefficiency.com/podcast/151-six-horizons/");
-          test.innerHTML = "You got a score of " + score;
+          test.innerHTML = "You got a score of " + score + " out of 30";
           $("test_status").innerHTML = "Test completed.";
           print_results.innerHTML = "Productivity? Never heard of her?";
           results_paragraph.innerHTML = "For you, every day is a struggle when it comes to finishing and doing your work.  Start controlling time instead of letting time control you! Here are some podcasts and articles to listen and read to guide you to a more productive life.";
@@ -69,7 +69,7 @@ function displayQuestion() {
           var book1_result = book1.link("https://www.amazon.com/Habits-Highly-Effective-People-Anniversary-ebook/dp/B00GOZV3TM/ref=sr_1_2?ie=UTF8&qid=1399666292&sr=8-2&keywords=e+7+habits+of+highly+effective+people")
           var book2 = "The 4-Hour Workweek, Expanded and Updated";
           var book2_result = book2.link("https://www.amazon.com/4-Hour-Workweek-Expanded-Updated-Cutting-Edge-ebook/dp/B002WE46UW/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1399666326&sr=1-1&keywords=the+four+hour+work+week")
-          test.innerHTML = "You got a score of " + score;
+          test.innerHTML = "You got a score of " + score + " out of 30";
           $("test_status").innerHTML = "Test completed.";
           print_results.innerHTML = "Unbalanced";
           results_paragraph.innerHTML = "Hey, you are not the most unproductive person but you are still pretty unproductive. There is a good chance nobody ever taught you how to be a productivity king or queen. Let us help you with that through these links.";
@@ -82,7 +82,7 @@ function displayQuestion() {
           var book3_result = book3.link("https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity-ebook/dp/B000WH7PKY/ref=sr_1_1_ha?s=digital-text&ie=UTF8&qid=1399666383&sr=1-1&keywords=Getting+Things+Done")
           var article4 = "6 Steps to Go from Procrastinating to Productive";
           var article4_result = article4.link("https://www.entrepreneur.com/article/297563")
-          test.innerHTML = "You got a score of " + score;
+          test.innerHTML = "You got a score of " + score + " out of 30";
           $("test_status").innerHTML = "Test completed.";
           print_results.innerHTML = "Productivity Novice";
           results_paragraph.innerHTML = "You understand the basics of good productivity; however, your plans often fall apart in the face of daily realities. Learn to plan out how long your tasks will actually take. Check out these links to learn how to stop the madness.";
@@ -94,7 +94,7 @@ function displayQuestion() {
         else if (score <= 27) {
           var article3 = "Why It's Crucial To Be Flexible";
           var article3_result = article3.link("http://www.businessinsider.com/business-leaders-move-away-from-strategic-planning-2010-1")
-          test.innerHTML = "You got a score of " + score;
+          test.innerHTML = "You got a score of " + score + " out of 30";
           $("test_status").innerHTML = "Test completed.";
           print_results.innerHTML = "Productivity Expert";
           results_paragraph.innerHTML = "Good job, you are on task and on time. I am shocked you even did this quiz instead of getting back to work. Some advice I can give is that you might want to look into how you prioritize your time so that you can be a little more flexible.";
@@ -105,7 +105,7 @@ function displayQuestion() {
           var article1 = "How to Spend the Last 10 Minutes of Your Work Day";
           var article1_result = str.link("https://www.entrepreneur.com/article/296898")
           // test.innerHTML = "<h2>You got a score of </h2>" + score;
-          test.innerHTML = "You got a score of " + score;
+          test.innerHTML = "You got a score of " + score + " out of 30";
           $("test_status").innerHTML = "Test completed.";
           print_results.innerHTML = "Productivity Black Belt Ninja Master";
           results_paragraph.innerHTML = "You are a proDUCKtivity master. Use this app to enhance your already-amazing productivity habits.";
