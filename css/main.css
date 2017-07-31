@@ -1,4 +1,7 @@
-
+img{
+    width: 80vw;
+    height:auto;
+}
 p {
     line-height: 1.33em;
     color: #7E7E7E;
@@ -418,9 +421,3 @@ fieldset {
   border:0;
   margin-top: 40vw;
 }
-
-/*
-	Ok so you have made it this far, that means you are very keen to on my code.
-	Anyway I don't really mind it. This is a great way to learn so you actually doing the right thing:)
-	Follow me @ihatetomatoes
-*/
