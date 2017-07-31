@@ -9,7 +9,7 @@ body {
  color: rgba(255, 255, 255, 1);
  margin: 0;
  padding: 0;
- background: #4A4A4A;
+ background: #C1E1DC;
  -webkit-touch-callout: none;
  -webkit-user-select: none;
  -khtml-user-select: none;
@@ -31,7 +31,7 @@ body {
 .header {
   height: 50px;
   width: 420px;
-  background: rgba(66, 66, 66, 1);
+  background:#53ac9c;
   text-align: center;
   position:relative;
   z-index: 100;
@@ -58,13 +58,13 @@ body {
 
 .left {
   border-width: 7.5px 10px 7.5px 0;
-  border-color: transparent rgba(160, 159, 160, 1) transparent transparent;
+  border-color: transparent white transparent transparent;
   left: 20px;
 }
 
 .right {
   border-width: 7.5px 0 7.5px 10px;
-  border-color: transparent transparent transparent rgba(160, 159, 160, 1);
+  border-color: transparent transparent transparent white;
   right: 20px;
 }
 
@@ -107,7 +107,7 @@ body {
 }
 
 .week {
- background: #4A4A4A;
+ background: gray;
 }
 
 .day {
@@ -117,30 +117,36 @@ body {
   text-align: center;
   vertical-align: top;
   cursor: pointer;
-  background: #4A4A4A;
+  background: #C1E1DC;
   position: relative;
   z-index: 100;
+  color: #ffffcc;
+  font-weight: bold;
 }
 
 .day.other {
- color: rgba(255, 255, 255, .3);
+ color: #e6e6e6;
+
 }
 
 .day.today {
-  color: rgba(156, 202, 235, 1);
+  color: #FFEB94;
+  font-weight: bold;
 }
 
 .day-name {
   font-size: 9px;
   text-transform: uppercase;
   margin-bottom: 5px;
-  color: rgba(255, 255, 255, .5);
+  color: gray;
   letter-spacing: .7px;
 }
 
 .day-number {
   font-size: 24px;
   letter-spacing: 1.5px;
+  /*color: gray;*/
+
 }
 
 
@@ -173,9 +179,10 @@ body {
   position: relative;
   width: 420px;
   height: 75px;
-  background: rgba(164, 164, 164, 1);
+  background: #ffd699;
   margin-top: 5px;
   border-radius: 4px;
+
 }
 
 .details.in {
@@ -199,7 +206,7 @@ body {
   height: 0px;
   border-style: solid;
   border-width: 0 5px 5px 5px;
-  border-color: transparent transparent rgba(164, 164, 164, 1) transparent;
+  border-color: transparent transparent #ffd699 transparent;
   transition: all 0.7s ease;
 }
 
@@ -244,6 +251,7 @@ body {
 
 .event.empty {
   color: #eee;
+  /*no events text color*/
 }
 
 .event-category {
@@ -264,7 +272,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 30px;
-  background: rgba(60, 60, 60, 1);
+  background: #53ac9c;
   line-height: 30px;
 
 }
