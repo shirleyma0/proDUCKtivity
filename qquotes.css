@@ -84,7 +84,8 @@ a {
   background-color: white;
   position: fixed;
   bottom: 0;
-  height:8vw;
+  min-height:8vw;
+  max-height: 10vw;
 }
 #duck {
   width: 6vw;
