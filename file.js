@@ -5,15 +5,19 @@ function pageDivider () {
     var day = document.getElementById("days").value;
     var ab= Number(page)
     var bc=Number(day)
-    if(day== null|| day==""||page== null|| page==""){
-        document.getElementById("warning").innerHTML ="*** Please input something! ***";
+    if(day== 0){
+		document.getElementById("warning").innerHTML ="*** No zeros! ***";
+		return false;
+    }
+    else if (day== null|| day==""||page== null|| page==""){
+		document.getElementById("warning").innerHTML ="*** Please input something! ***";
         return false;
+
     }
-    else if ((isNaN(page))||(isNaN(day)))
-    {
-      document.getElementById("warning").innerHTML ="*** Must input numbers! ***";
-      return false;
-    }
+	else if ((isNaN(page))||(isNaN(day))){
+		document.getElementById("warning").innerHTML ="*** Must input numbers! ***";
+		return false;
+	}
     // else if((page === NaN)||(day === NaN){
     //     document.getElementById("warning").innerHTML ="*** Must have an input! ***";
     //     return false;
