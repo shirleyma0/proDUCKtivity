@@ -1,3 +1,9 @@
+function init() {
+  document.getElementById("quoteText").innerHTML = "&#8220;" +  twainSet[Math.floor(Math.random() * 30)] + "&#8221;";
+}
+
+window.onload = init;
+
 function changeQuote() {
     document.getElementById("quoteText").innerHTML = "&#8220;" +  twainSet[Math.floor(Math.random() * 30)] + "&#8221;";
 }
