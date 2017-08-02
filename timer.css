@@ -1,13 +1,15 @@
+
+
 p {
   margin: 1.953125vw;
   font-size: 4em;
-  font-family: courier;
-  color: gray;
-  background: #FFCCAC;
+  font-family: 'Quicksand';
+  color: black;
 }
 
+
 body {
-  background: #FFCCAC;
+  background: white;
   padding-left: 0vw;
   margin: 0;
 }
@@ -16,7 +18,7 @@ ul {
   margin: 1.953125vw;
   font-size: 3em;
   font-family: courier;
-  color: gray;
+  /*color: gray;*/
 
 
 }
@@ -25,15 +27,31 @@ li {
   display: inline-block;
   margin: 0 0.48828125vw 0;
   color: white;
-  background-color: #FFCCAC;
+  background-color: white;
   border-radius: 4.8828125vw;
   width: 6.8359375vw;
   height: 6.8359375vw;
   line-height: 6.8359375vw;
   text-align: center;
   cursor: pointer;
-  color: gray;
+  color: black;
 
+}
+
+.start {
+  background-color: #C1E1DC;
+  border: none;
+  color: white;
+}
+
+.start:hover {
+  background-color: black;
+  border: none;
+  color: white;
+}
+
+.text {
+  max-width: 50%;
 }
 .navbar button{
     background-color: transparent;
