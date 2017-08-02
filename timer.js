@@ -13,7 +13,7 @@ playpause.onclick = function() {
   } else if (!playing) {
     playing = true;
     console.log("Play!");
-    playpause.innerHTML = "‖";
+    playpause.innerHTML = "❚❚";
   }
 
 }
