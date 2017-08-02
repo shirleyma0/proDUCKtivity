@@ -415,6 +415,9 @@ body {
 a {
   color: black;
 }
+i:hover{
+    color: red;
+}
 #duck {
   width: 6vw;
   height: auto;
