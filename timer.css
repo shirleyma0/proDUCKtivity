@@ -65,7 +65,7 @@ a {
   height: auto;
 }
 i:hover{
-    color: red;
+    color: #C1E1DC;
 }
 #timer-beep {
   position: absolute;
