@@ -1,4 +1,4 @@
-var COUNT_START = parseInt(prompt("How many minutes"))*10*60; // tenths * seconds * hours
+var COUNT_START = 10*10*60; // tenths * seconds * hours
 var count = COUNT_START;
 var playing = false;
 
