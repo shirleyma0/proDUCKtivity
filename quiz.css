@@ -134,8 +134,7 @@ body {
 
 #results_paragraph {
   background-color: #FFEB94;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
+  margin: 2vw;
   overflow: auto;
 }
 
