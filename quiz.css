@@ -12,6 +12,7 @@
 h1 {
   font-family: 'Zilla Slab', serif;
   font-size: 9vw;
+  margin: 1w;
 }
 body {
   overflow: scroll;
