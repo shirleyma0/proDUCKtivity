@@ -19,7 +19,7 @@ button {
   font-family: 'Quicksand', sans-serif;
   background-color: #FFEB94;
   border: none;
-  color: #01426a;
+  color: black;
   padding: 1vw 2vw 1vw 2vw;
   height:4.5vw;
   width:20vw;
@@ -29,26 +29,27 @@ button {
 }
 
 div {
-  background-color: #C1E1DC;
+  background-color: white;
   padding: 3vw;
   height: 100vw;
 }
 
 p {
-  color: #A0A0A0;
+  color: black;
   font-size: 3vw;
   font-weight: bold;
 }
 
 h1 {
-  color: #A0A0A0;
+  color: #C1E1DC;
+  text-shadow: 1px 2px black;
   text-align: center;
-  font-size: 6vw;
+  font-size: 9vw;
   font-family: 'Zilla Slab', serif;
 }
 .smallFont{
     font-size: 3vw;
-    color: #A0A0A0;
+    color: black;
     font-weight: bold;
 }
 .warnFont{
@@ -58,11 +59,12 @@ h1 {
 .content {
   font-family: 'Quicksand', serif;
   border: 2vw;
-  background-color: #FFCCAC;
+  background-color: #C1E1DC;
   height: auto;
   padding: 3vw 5vw 3vw 5vw;
 
 }
+
 
 .navbar button{
     background-color: transparent;
