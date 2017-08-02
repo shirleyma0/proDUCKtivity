@@ -141,6 +141,8 @@ body {
   background-color: #C1E1DC;
   font-size: 4vw;
   /*overflow: auto;*/
+  margin-left: 1vw;
+  margin-right: 1vw;
 
 }
 .navbar button{
