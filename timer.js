@@ -17,6 +17,12 @@ playpause.onclick = function() {
   }
 
 }
+function variableFunction(){
+  var user=document.getElementById('input1').value;
+  COUNT_START=user*10*60;
+  count = COUNT_START;
+
+}
 
 reset.onclick = function() {
   if (playing) {
