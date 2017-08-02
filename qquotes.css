@@ -86,6 +86,9 @@ a {
   bottom: 0;
   max-height: 8vw;
 }
+i:hover{
+    color: red;
+}
 #duck {
   width: 6vw;
   height: auto;
