@@ -9,10 +9,9 @@
   color: #C1E1DC;
   text-decoration: none;
 }
-
 h1 {
   font-family: 'Zilla Slab', serif;
-  font-size: 10vw;
+  font-size: 9vw;
 }
 body {
   overflow: scroll;
@@ -134,8 +133,7 @@ body {
 
 #results_paragraph {
   background-color: #FFEB94;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
+  margin: 2vw;
   overflow: auto;
 }
 
@@ -143,6 +141,8 @@ body {
   background-color: #C1E1DC;
   font-size: 4vw;
   /*overflow: auto;*/
+  margin-left: 1vw;
+  margin-right: 1vw;
 
 }
 .navbar button{

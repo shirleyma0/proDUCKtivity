@@ -8,6 +8,7 @@ body {
  font-weight: 100;
  color: rgba(255, 255, 255, 1);
  margin: 0;
+ margin-top: 2vw;
  padding: 0;
  background: #C1E1DC;
  -webkit-touch-callout: none;
