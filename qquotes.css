@@ -5,7 +5,7 @@ body {
   max-width: 90.75vw;
   padding: 3.90625vw 0.9765625vw;
   line-height: 1.65em;
-  background: #FFCCAC;
+  background: white;
   color: #fff;
   font-weight: 300;
   padding-left: 0vw;
@@ -13,9 +13,9 @@ body {
 p#quoteText {
   font-size: 200%;
   font-family: 'Quicksand', sans-serif;
-  border: 2px solid white;
-  box-shadow: 2px 2px black;
-  border-radius: 10px;
+  border: 1px solid black;
+  /*box-shadow: 2px 2px black;*/
+  border-radius: 0vw;
   padding: 40px;
   background-color: white;
   font-size: 1.2em;
@@ -35,29 +35,118 @@ button {
   font-family: 'Quicksand', sans-serif;
   background:#C1E1DC;
     border: 0;
-    color: #fff;
+    color: white;
     font-size: 2.953125vw;
     padding: 1em 2em;
     cursor: pointer;
     margin: 0 auto 5.859375vw;
     display: block;
     text-align: center;
-    border-radius: 0.5859375vw;
+    border-radius: 0vw;
     font-weight: bold;
 }
 
 h1 {
   text-align: center;
   margin: 20% 0 5% 0;
-  font-size: 5vw;
+  font-size: 9vw;
+  font-family: 'Zilla Slab', sans-serif;
+  padding: 40px;
+  margin: 0 auto;font-weight: 300;
+  max-width: 90.75vw;
+  padding: 3.90625vw 0.9765625vw;
+  line-height: 1.65em;
+  color: #FFCCAC;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+}
+
+h3 {
+  text-align: center;
+  margin: 20% 0 5% 0;
+  font-size: 3vw;
   font-family: 'Quicksand', sans-serif;
   padding: 40px;
   margin: 0 auto;font-weight: 300;
   max-width: 90.75vw;
   padding: 3.90625vw 0.9765625vw;
   line-height: 1.65em;
-  color: #6b6bc7;
-  text-shadow: 2px 2px white;
+  color: black;
+  font-weight: bold;
+}body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
+  margin: 0;
+  max-width: 90.75vw;
+  padding: 3.90625vw 0.9765625vw;
+  line-height: 1.65em;
+  background: white;
+  color: #fff;
+  font-weight: 300;
+  padding-left: 0vw;
+}
+p#quoteText {
+  font-size: 200%;
+  font-family: 'Quicksand', sans-serif;
+  border: 1px solid black;
+  /*box-shadow: 2px 2px black;*/
+  border-radius: 0vw;
+  padding: 40px;
+  background-color: white;
+  font-size: 1.2em;
+  margin: 0 auto;font-weight: 300;
+  max-width: 90.75vw;
+  padding: 3.90625vw 0.9765625vw;
+  line-height: 1.65em;
+  font-weight: 300;
+  color: #4d4d4d;
+
+}
+.container {
+  text-align: center;
+  padding-left: 5vw;
+}
+button {
+  font-family: 'Quicksand', sans-serif;
+  background:#C1E1DC;
+    border: 0;
+    color: white;
+    font-size: 2.953125vw;
+    padding: 1em 2em;
+    cursor: pointer;
+    margin: 0 auto 5.859375vw;
+    display: block;
+    text-align: center;
+    border-radius: 0vw;
+    font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  margin: 20% 0 5% 0;
+  font-size: 9vw;
+  font-family: 'Zilla Slab', sans-serif;
+  padding: 40px;
+  margin: 0 auto;font-weight: 300;
+  max-width: 90.75vw;
+  padding: 3.90625vw 0.9765625vw;
+  line-height: 1.65em;
+  color: #FFCCAC;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+}
+
+h3 {
+  text-align: center;
+  margin: 20% 0 5% 0;
+  font-size: 3vw;
+  font-family: 'Quicksand', sans-serif;
+  padding: 40px;
+  margin: 0 auto;font-weight: 300;
+  max-width: 90.75vw;
+  padding: 3.90625vw 0.9765625vw;
+  line-height: 1.65em;
+  color: black;
   font-weight: bold;
 }
 .navbar button{
