@@ -41,6 +41,7 @@ body {
   border: #FDD475 2px solid;
   background-color: white;
   color: #FDD475;
+  cursor:pointer;
   font-size: 4vw;
   text-align: center;
   padding: 1vw 4vw;
@@ -91,6 +92,7 @@ body {
   color: #FFCCAC;
   font-size: 4vw;
   text-align: center;
+  cursor:pointer;
   /*margin-top: 2.5vw;*/
   padding: 1vw 4vw;
   margin-left: 60%;
@@ -122,6 +124,8 @@ body {
 }
 .container {
   overflow: auto;
+  height:100%;
+  width:auto;
 }
 
 #print_results {
