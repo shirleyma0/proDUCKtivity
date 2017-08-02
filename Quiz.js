@@ -61,7 +61,7 @@ function displayQuestion() {
           document.getElementById("results_articles").innerHTML = article1_result;
           podcasts.innerHTML = "Podcasts:"
           document.getElementById("results_podcasts1").innerHTML = podcast1_result;
-    
+
           document.getElementById("results_podcasts2").innerHTML = podcast2_result;
         }
         else if (score <= 19) {
@@ -152,4 +152,9 @@ function checkAnswer() {
     }
     pos++;
     displayQuestion();
+}
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+
 }
