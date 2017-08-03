@@ -12,13 +12,17 @@ function pageDivider () {
     else if (day== 0){
 	    document.getElementById("warning").innerHTML ="*** No zeros! ***";
 	return false;
-		
+
 
     }
 	else if ((isNaN(page))||(isNaN(day))){
 		document.getElementById("warning").innerHTML ="*** Must input numbers! ***";
 		return false;
 	}
+    else if (((page|| day)<= 0)){
+        document.getElementById("warning").innerHTML ="*** Must input numbers greater than 0! ***";
+        return false;
+    }
     // else if((page === NaN)||(day === NaN){
     //     document.getElementById("warning").innerHTML ="*** Must have an input! ***";
     //     return false;
