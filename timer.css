@@ -1,4 +1,7 @@
-
+.warnFont{
+    font-size: 2vw;
+    color:red;
+}
 
 p {
   margin: 1.953125vw;
