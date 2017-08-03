@@ -18,10 +18,27 @@ playpause.onclick = function() {
 
 }
 function variableFunction(){
+    document.getElementById("warning").innerHTML ="";
   var user=document.getElementById('input1').value;
+  document.getElementById("input1").value = "";
+
+  if(user== null|| user==""){
+  document.getElementById("warning").innerHTML ="*** Please input something! ***";
+      return false;
+  }
+
+  else if ((isNaN(user))){
+      document.getElementById("warning").innerHTML ="*** Must input numbers! ***";
+      return false;
+  }
+  else if ((user<= 0)){
+      document.getElementById("warning").innerHTML ="*** Must input a number greater than 0! ***";
+      return false;
+  }
+  else{
   COUNT_START=user*10*60;
   count = COUNT_START;
-
+}
 }
 
 reset.onclick = function() {
